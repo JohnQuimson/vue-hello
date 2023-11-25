@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0e17;
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.cont-foto {
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+}
+.cont-foto img {
+  width: 100%;
+  height: 100%;
+}
