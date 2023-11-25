@@ -4,9 +4,8 @@ const { createApp, ref } = Vue;
 
 createApp({
   setup() {
-    const message = ref('Hello vue!');
     return {
-      message,
+      titolo: `Primo approccio con VueJS`,
     };
   },
 }).mount('#app');
